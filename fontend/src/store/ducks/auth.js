@@ -22,6 +22,3 @@ export const success = (state, { token }) => {
 export const reducer = createReducer(INITIAL_STATE, {
   [Types.SIGN_IN_SUCCESS]: success,
 });
-
-
-

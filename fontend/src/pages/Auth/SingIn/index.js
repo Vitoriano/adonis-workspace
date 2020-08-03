@@ -27,9 +27,7 @@ class SingIn extends Component {
   }
 
   handleSubmit = (e) => {
-    console.log('oi');
     e.preventDefault();
-    console.log(e);
     const { email, password } = this.state;
     const { signInRequest } = this.props;
 
