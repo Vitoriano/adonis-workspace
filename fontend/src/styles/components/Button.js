@@ -9,7 +9,7 @@ const sizes = {
    height: 36px;
    font-size: 14px;
  `,
-  bit: css`
+  big: css`
   height: 44px;
   font-size: 18px;
 `,
@@ -42,7 +42,7 @@ const colors = {
 };
 
 const Button = styled.button.attrs({
-  type: 'button',
+  type: 'submit',
 })`
   border-radius: 3px;
   transition: background-color 0.15s ease;
