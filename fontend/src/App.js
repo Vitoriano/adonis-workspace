@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import ReduxToastr from 'react-redux-toastr';
 
 import store from './store';
-import Routes from './routes';
+import Routes from './routes/index';
 
 import GlobalStyle from './styles/global';
 

@@ -15,7 +15,6 @@ export const INITIAL_STATE = Immutable({
 });
 
 export const success = (state, { token }) => {
-  console.log(token);
   return state.merge({ signedIn: true, token });
 };
 
